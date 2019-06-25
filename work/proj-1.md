@@ -1,12 +1,36 @@
 ---
-title: Typo International Design Talks Stuff
+title: The Units Project - Work on LFA Project
 ---
 
-![Typo International]({{ site.github.url }}/assets/img/work/proj-1/img1.jpg)
+![The Units Project]({{ site.github.url }}/assets/img/work/proj-1/img1.png)
 
-TYPO: International Design Talks is an annual event held in Berlin, London, and San Francisco. This promotional project is developed to market the event for the designindustry. The use of patterns, sophisticated color scheme and typography are applied for the print and mobile application.
+The Units Project is a powerful Domain Specific Language for creating all kinds 
+of Units that offers an interface that guarantees checked operations between them.
 
-![Typo International]({{ site.github.url }}/assets/img/work/proj-1/img2.jpg)
-![Typo International]({{ site.github.url }}/assets/img/work/proj-1/img3.jpg)
-![Typo International]({{ site.github.url }}/assets/img/work/proj-1/img4.jpg)
-![Typo International]({{ site.github.url }}/assets/img/work/proj-1/img5.jpg)
+**The "Double Trouble"**
+
+Why isn't the type Double enough? When dealing with units or quantities of a 
+specific dimension in a General Purpose programming language there is an obvious 
+limitation. There is no way to distinguish two variables aside from their names. 
+And when operating with units, adding or multiplying yields different results, 
+one maintains the dimension the other does not. And what if the SI units are not 
+enough? And what if you need to create a new base unit and derived other units 
+from it? And what about prefix multipliers? The Double Touble DSL allows you to 
+create all of this very easily. As a simple example, the code bellow creates 17 
+prefixed types/units with 169 different combinations to calculate area with 
+equivalent (same dimension) units.
+
+```
+units {
+  meter "m";
+  yard "yd";
+  fathom "ftm";
+  area "m^2" : meter * meter;
+  length [meter] : (1.09361) yard | (0.546807) fathom;
+}
+prefixes {
+  Mega "M" : 10^6;
+  kilo "k" : 10^3;
+  pico "p" : 10^-12;
+}
+```

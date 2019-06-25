@@ -5,7 +5,8 @@ animation: "bounceOut"
 # Images
 
 logo: "logo.svg"
-hero: "hero-bg.jpg"
+#hero: "hero-bg.jpg"
+hero: "header_img.jpg"
 avatar: "profile_pic.jpg"
 
 # Colors
