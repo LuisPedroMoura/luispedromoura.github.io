@@ -8,10 +8,11 @@ email: luisppmoura@gmail.com
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-- {name: About Me, url: '#about-me'}
-- {name: Work, url: '#work'}
-- {name: Clients, url: '#clients'}
-- {name: Contact, url: '#contact'}
+- {name: About Me,  url: '#about-me'}
+- {name: Work,      url: '#work'}
+- {name: Clients,   url: '#clients'}
+- {name: Contact,   url: '#contact'}
+- {name: Online CV, url: '#online-cv'}
 
 #-------------------------------
 # SEO Section
