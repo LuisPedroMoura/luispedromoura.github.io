@@ -61,11 +61,11 @@ skills:
 # Work Section
 
 projects:
-- {name: The Units Project, folder: 'proj-1', file: 'proj-1.html'}
-#- {name: The Potatoes Project, folder: 'proj-2', file: 'proj-2.html'}
-- {name: The Cheddar Project (Pac-Man), folder: 'proj-2', file: 'proj-2.html'}
-- {name: The Blueberry Project (BlueBudget), folder: 'proj-3', file: 'proj-3.html'}
-- {name: The Barber Shop, folder: 'proj-4', file: 'proj-4.html'}
+- {name: The Units Project, folder: 'proj-1', file: 'work/proj-1.html'}
+#- {name: The Potatoes Project, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: The Cheddar Project (Pac-Man), folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: The Blueberry Project (BlueBudget), folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: The Barber Shop, folder: 'proj-4', file: 'work/proj-4.html'}
 
 #- {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
 #- {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}

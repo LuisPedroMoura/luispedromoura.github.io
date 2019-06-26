@@ -54,7 +54,7 @@ function  workLoad() {
         spinner = '<div class="loader">Loading...</div>',
         url = $this.find('.thumb-unit').data('url');
 
-    $('.project-load').html(spinner);//.load(url);
+    $('.project-load').html(spinner).load(url);
     $('.project-title').text(newTitle);
   });
 
