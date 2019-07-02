@@ -4,7 +4,7 @@ animation: "bounceOut"
 
 # Images
 
-logo: "logo.svg"
+#logo: "logo.svg"
 hero: "header_img.jpg"
 avatar: "profile_pic.jpg"
 
@@ -18,6 +18,6 @@ bgcolor: "#e5eaee"
 documentBackgroundColor: "#fff"
 
 # My colors
-accent: "#449AE5"
+#accent: "#449AE5"
+accent: "#1E9FCE"
 #accent: "#86DAFE"
-#bgcolor: "#F7F018"

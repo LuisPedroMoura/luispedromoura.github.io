@@ -10,7 +10,7 @@ email: luisppmoura@gmail.com
 menu:
 - {name: About Me,  url: '#about-me'}
 - {name: Work,      url: '#work'}
-- {name: Clients,   url: '#clients'}
+- {name: References,   url: '#clients'}
 - {name: Contact,   url: '#contact'}
 
 #-------------------------------
@@ -75,10 +75,10 @@ projects:
 # Clients Section
 
 clients:
-- {avatar: 'face-aaroni.jpg',
-  name: 'Scott Summers',
-  title: 'Director of Design, OnToText Ind.',
-  quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
+- {avatar: 'face3.jpg',
+  name: 'Maria Lavoura',
+  title: 'Amiga e Engenheira Informática',
+  quote: '<p><strong>O Luís é um individuo que não são dois.</strong> É metade. Um verdadeiro banano!</p>',
   logo: 'logo1.png'}
 - {avatar: 'face-atariboy.jpg',
   name: 'Hank McCoy',
