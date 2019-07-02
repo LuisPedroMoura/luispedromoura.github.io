@@ -10,9 +10,14 @@ avatar: "profile_pic.jpg"
 
 # Colors
 
-accent: "#c99065"
-
+# Theme Originals
+#accent: "#c99065"
 textColor: "#666"
 headlineColor: "#333"
 bgcolor: "#e5eaee"
 documentBackgroundColor: "#fff"
+
+# My colors
+accent: "#449AE5"
+#accent: "#86DAFE"
+#bgcolor: "#F7F018"
