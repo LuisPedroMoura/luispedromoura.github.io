@@ -75,10 +75,12 @@ projects:
 # Clients Section
 
 clients:
-- {avatar: 'face3.jpg',
+- {avatar: 'face1.jpg',
   name: 'Maria Lavoura',
-  title: 'Amiga e Engenheira Informática',
-  quote: '<p><strong>O Luís é um individuo que não são dois.</strong> É metade. Um verdadeiro banano!</p>',
+  title: 'Friend and University classmate',
+  quote: '<p><strong>Luis has a great capacity for understanding new concepts 
+  and for transmitting knowledge.</strong> In the university, he was the one 
+  everyone used to ask questions to.</p>',
   logo: 'logo1.png'}
 - {avatar: 'face-atariboy.jpg',
   name: 'Hank McCoy',
