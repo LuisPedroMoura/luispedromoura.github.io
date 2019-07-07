@@ -84,7 +84,7 @@ clients:
   logo: 'logo1.png'}
 - {avatar: 'face2.png',
   name: 'Miguel Oliveira e Silva',
-  title: 'Professor na Universidade de Aveiro',
+  title: 'Professor at Universidade de Aveiro',
   quote: '<p><strong>It was an enormous pleasure to have Luís as a student.</p>',
   logo: 'logo2.png'}
 # - {avatar: 'face-jackiesaik.jpg',
